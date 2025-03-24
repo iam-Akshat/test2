@@ -1,3 +1,8 @@
+# Demo
+[TRY APPLICATION LIVE HERE](https://test2-epx.pages.dev/)
+
+[![Watch the video](./demo.mp4)](./demo.mp4)
+
 ## Backend
 The app is an `express` based REST API, using `mongoose` as ORM.
 We have used a `models` and `routes` folder, additionally we can use a `controllers` folder as well to organize the code better as codebase grows.
@@ -12,7 +17,7 @@ docker run --name mongodb -p 27017:27017 -d mongodb/mongodb-community-server:lat
 - `cd backend`
 - copy the env vars from `.env.sample` to `.env` and set your backend url if its different from default 5001
 - `npm i`
-- `npm run dev`
+- `node server.js`
 
 
 ## Frontend
