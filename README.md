@@ -3,6 +3,10 @@
 
 [![Watch the video](./demo.mp4)](./demo.mp4)
 
+
+https://github.com/user-attachments/assets/8402aa64-6bef-400e-9903-e8157143909c
+
+
 ## Backend
 The app is an `express` based REST API, using `mongoose` as ORM.
 We have used a `models` and `routes` folder, additionally we can use a `controllers` folder as well to organize the code better as codebase grows.
