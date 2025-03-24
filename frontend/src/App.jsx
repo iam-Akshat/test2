@@ -58,7 +58,7 @@ function App() {
       <h1 className="text-center mb-4">Image Carousel</h1>
       
       {error && <Alert variant="danger">{error}</Alert>}
-      
+      {loading &&<Alert variant="info">Loading...</Alert> }
       <Row className="mb-4">
         <Col>
           <ImageCarousel 
